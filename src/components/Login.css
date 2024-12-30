@@ -1,0 +1,119 @@
+/* General Page Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f6f8;
+}
+
+.app-container {
+  width: 900px;
+  background: white;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.left-section {
+  background: #26a69a;
+  color: white;
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: center;
+}
+
+.left-section h2 {
+  margin-bottom: 20px;
+}
+
+.left-section p {
+  margin-bottom: 30px;
+}
+
+.toggle-button {
+  background: white;
+  color: #26a69a;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background: #00796b;
+  color: white;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1.5;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background: #26a69a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #00796b;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-buttons button {
+  background: #ddd;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.social-buttons button:hover {
+  background: #bbb;
+}
+
