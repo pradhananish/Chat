@@ -10,7 +10,7 @@ body {
 }
 
 .app-container {
-  width: 900px;
+  width: 400px;
   background: white;
   display: flex;
   border-radius: 10px;
@@ -26,8 +26,8 @@ body {
   padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -105,10 +105,9 @@ button[type="submit"]:hover {
 }
 
 .social-buttons button {
-  background: #ddd;
+  background: #e9e4e4;
   border: none;
   padding: 10px;
-  border-radius: 50%;
   font-size: 1em;
   cursor: pointer;
 }
